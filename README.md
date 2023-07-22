@@ -1,3 +1,19 @@
+OHLC Moving Averages
+
+The average of the open, high, low, and close (OHLC) for a given time frame is the average value of the opening price, the highest price that was reached, the lowest price that was reached, and the closing price. For example, a candlestick or price bar may have an open of 68, a high of 85, a low of 66, and a close of 72.
+
+The calculation of the open, high, low, close average is calculated as follows:
+
+OHLC Average = (68 + 85 + 66 + 72) / 4 = 72.75
+
+The HLC Average is much the same except the open price is excluded, and the sum of the high, low, and close are divided by three. 
+
+HLC Average = (85 + 66+ 72) / 3 = 74.33
+
+Though the resulting averages are comparable, this shows how changing the parameters of the data being input affects the calculation of the indicator.
+
+
+
 # OhlcMoving
 
 1. mix deps.get
