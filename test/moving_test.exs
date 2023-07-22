@@ -49,8 +49,6 @@ defmodule OhlcMovingWeb.MovingTest do
       # Create the desired map
       actual_verage = %{open: open, high: high, low: low, close: close}
 
-      # Assert the response status and body
-
       # Define the expected average for the last 1 hour, currenlty doesn't contain avg for dummy data
       # change your expected result according to your data
       expected_average = %{open: 0.0, high: 0.0, low: 0.0, close: 0.0}
