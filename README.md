@@ -11,7 +11,7 @@ The HLC Average is much the same except the open price is excluded, and the sum 
 HLC Average = (85 + 66+ 72) / 3 = 74.33
 
 Though the resulting averages are comparable, this shows how changing the parameters of the data being input affects the calculation of the indicator.
-
+In this repo open, high, low, and close is being calculated based on last_20_items and last_1_hour.
 
 
 # OhlcMoving
