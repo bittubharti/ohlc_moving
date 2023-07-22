@@ -3,7 +3,6 @@ defmodule OhlcMovingWeb.MovingTest do
   use OhlcMovingWeb.ConnCase
 
   import OhlcMoving.Factory
-  import OhlcMovingWeb.SeedsTest
   alias OhlcMovingWeb.OhlcController
   alias OhlcMovingWeb.QueryHandler
 
