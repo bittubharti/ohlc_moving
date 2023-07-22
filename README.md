@@ -1,8 +1,14 @@
 # OhlcMoving
 
+1. mix deps.get
+2. Run mix ecto.create in the root directory
+3. Run mix ecto.migrate in the root directory
+4. Run mix setup to run seeds.ex file for data insertion and to install dependencies.
+5. To test the test cases run mix test
+
+
 To start your Phoenix server:
 
-  * Run `mix setup` to install and setup dependencies
   * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
